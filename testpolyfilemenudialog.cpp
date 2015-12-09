@@ -30,7 +30,6 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include "container.h"
 #include "fileio.h"
 #include "polyfile.h"
-#include "richelbilderbeekprogram.h"
 #include "trace.h"
 #include "testtimer.h"
 #pragma GCC diagnostic pop
@@ -121,25 +120,18 @@ ribi::Help ribi::TestPolyFileMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::TestPolyFileMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const Program> p {
-    new ProgramTestPolyFile
-  };
-  assert(p);
-  return p;
-}
 
 std::string ribi::TestPolyFileMenuDialog::GetVersion() const noexcept
 {
-  return "1.1";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::TestPolyFileMenuDialog::GetVersionHistory() const noexcept
 {
   return {
-    "2014-06-02: version 1.0: initial version"
-    "2014-08-08: version 1.1: added silent flag to console version"
+    "2014-06-02: version 1.0: initial version",
+    "2014-08-08: version 1.1: added silent flag to console version",
+    "2015-12-09: version 2.0: moved to own GitHub",
   };
 }
 

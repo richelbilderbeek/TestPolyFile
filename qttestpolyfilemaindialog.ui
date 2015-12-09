@@ -14,8 +14,8 @@
    <string>TestPolyFile</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestPolyFile.qrc">
-    <normaloff>:/images/ToolTestPolyFileIcon.png</normaloff>:/images/ToolTestPolyFileIcon.png</iconset>
+   <iconset resource="TestPolyFile.qrc">
+    <normaloff>:/images/TestPolyFileIcon.png</normaloff>:/images/TestPolyFileIcon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -52,7 +52,7 @@ QWidget { font: 14px,&quot;Courier New&quot;,&quot;Courier&quot;,&quot;monospace
   </layout>
  </widget>
  <resources>
-  <include location="ToolTestPolyFile.qrc"/>
+  <include location="TestPolyFile.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>346</width>
-    <height>462</height>
+    <height>447</height>
    </rect>
   </property>
   <property name="font">
@@ -19,8 +19,8 @@
    <string>TestPolyFile</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestPolyFile.qrc">
-    <normaloff>:/images/ToolTestPolyFileIcon.png</normaloff>:/images/ToolTestPolyFileIcon.png</iconset>
+   <iconset resource="TestPolyFile.qrc">
+    <normaloff>:/images/TestPolyFileIcon.png</normaloff>:/images/TestPolyFileIcon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -37,7 +37,7 @@ QPushButton { font: 32px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestPolyFile.qrc">:/images/ToolTestPolyFileWelcome.png</pixmap>
+      <pixmap resource="TestPolyFile.qrc">:/images/TestPolyFileWelcome.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -68,7 +68,7 @@ QPushButton { font: 32px, &quot;monospace&quot; }</string>
   </layout>
  </widget>
  <resources>
-  <include location="ToolTestPolyFile.qrc"/>
+  <include location="TestPolyFile.qrc"/>
  </resources>
  <connections/>
 </ui>
